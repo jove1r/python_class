@@ -2,6 +2,7 @@ ipAddress = input("Please provide an ip adress ")
 
 segment = 1
 segment_length = 0
+character = ""
 
 for character in ipAddress:
     if character == '.':
