@@ -9,7 +9,7 @@ available_exits = ("east", "north east", "south")
 chosen_exit = ""
 while chosen_exit not in available_exits:
     chosen_exit = input("Please choose a direction: ")
+    if chosen_exit == "quit":
+        print('Game Over')
 
 print("Aren't you glad you found the right exit?")
-
-
